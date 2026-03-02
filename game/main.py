@@ -3,7 +3,7 @@ from fighter import QLearningFighter
 from ui import run_demo
 
 if __name__ == "__main__":
-    q_table_path = r"C:\Users\JYJ\@ai_asg\ml_asg\q_table.pkl"
+    q_table_path = r"q_table.pkl"
     fighter = QLearningFighter(
         q_table_path=q_table_path,
         alpha=0.2,
