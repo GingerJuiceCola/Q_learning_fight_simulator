@@ -5,7 +5,7 @@ import os
 from typing import Tuple, List, Dict
 
 class QLearningFighter:
-    """Q学习格斗智能体（完整保留修正后的逻辑）"""
+    """Q学习格斗智能体"""
     ACTIONS: List[str] = ["闪避", "格挡", "招架", "轻击", "破防", "重击"]
     ACTION_PROPS: Dict[int, Tuple[int, int]] = {
         0: (2, 1),  # 闪避
@@ -64,8 +64,6 @@ class QLearningFighter:
 
     def select_action(self, state: Tuple, is_agent=True) -> int:
         # 动作选择（智能体/敌方）
-        # ...（完整代码，与之前一致）
 
     def fight_step(self, state: Tuple, a_act: int, o_act: int) -> Tuple[float, Tuple, bool]:
         # 核心对抗逻辑
-        # ...（完整代码，与之前一致）
