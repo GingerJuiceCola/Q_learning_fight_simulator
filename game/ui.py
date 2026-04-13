@@ -16,13 +16,10 @@ DARK_GREEN = (0,100,0)
 YELLOW = (255,215,0)
 
 def draw_bar(surf, x, y, w, h, val, maxv, bg, fg):
-    # ...（与之前一致）
 
 def draw_text(surf, text, font, x, y, color, center=False):
-    # ...（与之前一致）
 
 def draw_stickman(surf, x, y, action, side, color=BLACK, dashed=False):
-    # ...（与之前一致，使用英文动作名？注意界面中传递的是英文动作名）
 
 def show_menu(screen, font_large, font_med):
     """显示简单开始菜单"""
